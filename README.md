@@ -7,6 +7,7 @@ It's developed as part of my **Cybersecurity Internship** to explore data hiding
 
 ## 📂 Project Structure
 
+```bash
 steganography_project/
 │
 ├── hide_text.py # Function to hide secret message inside an image.
@@ -14,7 +15,7 @@ steganography_project/
 ├── run_me.py # One-click script to hide & reveal the message.
 ├── requirements.txt # Required libraries (mainly pillow).
 └── sample_image.png # Your input image (any .png or .jpg).
-
+```
 
 
 ---
@@ -36,17 +37,15 @@ steganography_project/
 
 ```bash
 python
+
 Run the following:
-
-
 from hide_text import hide_text
 hide_text("sample_image.png", "output_image.png", "This is the hidden message.", "mypassword123")
 
 from reveal_text import reveal_text
 print(reveal_text("output_image.png", "mypassword123"))
+
 ✅ Output:
-
-
 ✅ Secret text hidden and saved to 'output_image.png'.
 🔓 Hidden message: This is the hidden message.
 ```
@@ -56,16 +55,17 @@ print(reveal_text("output_image.png", "mypassword123"))
 Open a command prompt in the folder.
 
 Run:
+```bash
 python run_me.py
 
-### ✅ Output:
-
+✅ Output:
 
 ✅ Secret text hidden and saved to 'output_image.png'.
 🔓 Hidden message: This is the hidden message.
-🖼️ Supported Image Formats
-.png (Recommended)
+```
 
+### 🖼️ Supported Image Formats
+.png (Recommended)
 .jpg works but might reduce message accuracy due to compression
 
 ---
@@ -73,10 +73,10 @@ python run_me.py
 ### 📦 Installation
 Install required libraries:
 
-
+```bash
 pip install -r requirements.txt
+```
 Only one package is needed:
-
 Pillow (for image processing)
 
 ---
@@ -88,5 +88,5 @@ Learned about binary encoding, pixel manipulation & image formats
 
 Practiced clean coding, modular design, and project documentation
 
-🛡️ Disclaimer
+### 🛡️ Disclaimer
 This is a basic implementation meant for educational purposes during a cybersecurity internship. It does not provide strong cryptographic security.
