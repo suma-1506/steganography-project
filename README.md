@@ -56,10 +56,9 @@ print(reveal_text("output_image.png", "mypassword123"))
 Open a command prompt in the folder.
 
 Run:
-
-
 python run_me.py
-✅ Output:
+
+### ✅ Output:
 
 
 ✅ Secret text hidden and saved to 'output_image.png'.
@@ -69,7 +68,9 @@ python run_me.py
 
 .jpg works but might reduce message accuracy due to compression
 
-📦 Installation
+---
+
+### 📦 Installation
 Install required libraries:
 
 
@@ -78,7 +79,9 @@ Only one package is needed:
 
 Pillow (for image processing)
 
-🎓 Internship Takeaways
+---
+
+### 🎓 Internship Takeaways
 Implemented real steganography from scratch using Python
 
 Learned about binary encoding, pixel manipulation & image formats
