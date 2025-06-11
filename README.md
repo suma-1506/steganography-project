@@ -9,11 +9,11 @@ It's developed as part of my **Cybersecurity Internship** to explore data hiding
 
 steganography_project/
 │
-├── hide_text.py # Function to hide secret message inside an image
-├── reveal_text.py # Function to reveal hidden message from an image
-├── run_me.py # One-click script to hide & reveal the message
-├── requirements.txt # Required libraries (mainly pillow)
-└── sample_image.png # Your input image (any .png or .jpg)
+├── hide_text.py # Function to hide secret message inside an image.
+├── reveal_text.py # Function to reveal hidden message from an image.
+├── run_me.py # One-click script to hide & reveal the message.
+├── requirements.txt # Required libraries (mainly pillow).
+└── sample_image.png # Your input image (any .png or .jpg).
 
 
 
@@ -49,7 +49,10 @@ print(reveal_text("output_image.png", "mypassword123"))
 
 ✅ Secret text hidden and saved to 'output_image.png'.
 🔓 Hidden message: This is the hidden message.
-🔹 Method 2: Automated Method (run_me.py)
+
+---
+
+### 🔹 Method 2: Automated Method (run_me.py)
 Open a command prompt in the folder.
 
 Run:
