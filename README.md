@@ -49,7 +49,7 @@ print(reveal_text("output_image.png", "mypassword123"))
 
 ✅ Secret text hidden and saved to 'output_image.png'.
 🔓 Hidden message: This is the hidden message.
-
+```
 ---
 
 ### 🔹 Method 2: Automated Method (run_me.py)
