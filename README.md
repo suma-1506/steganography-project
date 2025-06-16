@@ -3,10 +3,16 @@
 This project demonstrates a basic but powerful steganography technique: **hiding secret text inside images** using the **Least Significant Bit (LSB)** method.  
 It's developed as part of my **Cybersecurity Internship** to explore data hiding and privacy techniques.
 
+![Python](https://img.shields.io/badge/python-3.10-blue)
+![License](https://img.shields.io/badge/license-MIT-green)
+![Repo Size](https://img.shields.io/github/repo-size/suma-1506/steganography-project)
+![Last Commit](https://img.shields.io/github/last-commit/suma-1506/steganography-project)
+![Stars](https://img.shields.io/github/stars/suma-1506/steganography-project?style=social)
+
 ---
 
 ## 📂 Project Structure
-
+```bash
 steganography_project/
 │
 ├── hide_text.py # Function to hide secret message inside an image
@@ -14,7 +20,7 @@ steganography_project/
 ├── run_me.py # One-click script to hide & reveal the message
 ├── requirements.txt # Required libraries (mainly pillow)
 └── sample_image.png # Your input image (any .png or .jpg)
-
+```
 
 
 ---
